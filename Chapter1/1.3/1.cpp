@@ -26,7 +26,7 @@ int main(){
     cout<<unique("aaaaaabbbbbb")<<endl;
     cout<<unique("")<<endl;
     cout<<unique("ababababa")<<endl;
-    cout<<unique("ababbbaa")<<endl;
+    cout<<unique("abcdef")<<endl;
 
     return 0;
 }

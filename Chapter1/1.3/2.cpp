@@ -25,5 +25,6 @@ int main(){
     cout<<uniq("aaaaaabbbbbb")<<endl;
     cout<<uniq("")<<endl;
     cout<<uniq("abababababa")<<endl;
+    cout<<uniq("abcdef")<<endl;
     return 0;
 }
