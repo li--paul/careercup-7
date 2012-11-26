@@ -8,6 +8,9 @@ struct node{
 };
 
 node * nth(node * head,int n){
+    if(head == NULL || n < 0)
+        return NULL;
+
     node * current = head;
     node * nth = NULL;
 
